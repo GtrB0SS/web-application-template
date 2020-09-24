@@ -1,0 +1,12 @@
+
+
+<div class="jumbotron">
+  <h5 class="categoria">{{ publicacion.categoria }}</h5>
+  <h1 class="titulo" width=100%>{{ publicacion.titulo}}</h1>
+  <p>
+    <img class="ImagenNoticia" [src]="publicacion.imagen"
+      width="100%" />
+  </p>
+  <p class="lead"> {{ publicacion.entradilla }}</p>
+  <p><a class="btn btn-lg vermas" (click)="verPublicacion()" role="button">Ver Más</a></p>
+</div>

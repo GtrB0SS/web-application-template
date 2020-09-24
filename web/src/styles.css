@@ -1,0 +1,216 @@
+
+
+
+  .pantalla{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/eb/28/95/eb2895f1d2fdb834fc7509d4a7147255.jpg);
+    background-attachment: fixed;
+
+  }
+
+  
+
+  
+
+
+
+
+
+
+  .container {
+    background-color: rgba(48, 48, 48, 0.519);
+
+  }
+
+  h1{
+    color:rgba(255, 196, 0, 0.719);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .btn-outline-primary {
+    margin-left: 5px;
+  }
+
+    #containerNav{
+    padding: 30px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+  }
+
+  .nav-pills {
+    position: relative;
+  }
+
+  .nav-link {
+    color: rgba(255, 196, 0, 0.719);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-bottom: 31px rgba(255, 196, 0, 0.719);
+  }
+
+  .nav-tabs {
+    margin-top: 60px;
+    margin-right: 20;
+  }
+
+  .btn-outline {
+    color: rgba(255, 196, 0, 0.719)
+  }
+
+  .btn{
+    background-color: transparent;
+  }
+
+  .btn:hover{
+      color:white;
+  }
+
+
+
+  .TituloNoticia {
+    font-weight: bold;
+    margin-bottom: 20;
+  }
+
+
+  .jumbotron {
+    background-color: rgb(48, 48, 48);
+    color: white;
+  }
+
+
+  .navbar-nav>.active>a {
+    color: rgba(255, 196, 0, 0.719);
+  }
+
+  .nav-item>a:hover {
+    color: rgba(255, 196, 0, 0.719);
+  }
+
+
+  .BotonBuscar {
+    background-color:transparent; 
+    border: rgba(255, 196, 0, 0.719);
+  }
+
+  .form-inline {
+    margin-left: 30px;
+  }
+
+  .navbar-brand{
+    margin-left: 20px;
+   }
+
+   .dropdown-item{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgba(255, 196, 0, 0.719);
+    
+   }
+
+   .dropdown-item:hover{
+     background-color:white;
+     color: rgb(48, 48, 48);
+   }
+   .dropdown-menu{
+    background-color: rgba(48, 48, 48, 0.9);    
+   }
+
+ 
+
+   #navbarDropdownMenuLink{
+    color: rgba(255, 196, 0, 0.719);
+
+   }
+
+   
+
+   .nav-link{
+    background-color: transparent;
+   }
+
+   .nav-link:hover{
+    color: rgb(48, 48, 48);
+   }
+
+   
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  .TituloNoticia {
+    font-weight: bold;
+    margin-bottom: 20;
+  }
+
+
+  .jumbotron {
+    background-color: rgb(48, 48, 48);
+    color: white;
+  }
+
+
+
+  .categoria{
+    color: rgba(255, 196, 0, 0.5);
+  }
+
+  .vermas{
+    background-color: rgba(255, 196, 0, 0.719);
+  }
+
+ 
+
+
+
+  #containerCompartir {
+      
+    padding: 30px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+  }
+
+  .card {
+  
+    color: white;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 50px;
+  }
+
+  .list-group-item {
+    color: white;
+    background: rgb(48, 48, 48);
+  }
+
+
+  .Compartir {
+    align-content: right;
+    margin: 100;
+  }
+
+
+  .TablaCompartir {
+    text-align: center;
+  }
+

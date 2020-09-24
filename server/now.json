@@ -1,0 +1,13 @@
+
+{ 
+        "version": 2,
+        "routes": [                     
+            {"src": "/index.html", "dest": "/public"},     
+            {"src": "/(.*)", "dest": "/index.js"}],         
+        "env": {        
+            "DB_USER": "@publicaciones-db-user",         
+            "DB_PASSWORD": "@publicaciones-db-password",         
+            "DB_HOST": "@publicaciones-db-host",         
+            "DB_NAME": "@publicaciones-db-name"     
+            } 
+        }

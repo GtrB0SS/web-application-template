@@ -1,0 +1,55 @@
+
+
+
+
+<div class="container" id="containerNav">
+<nav>
+  
+  <a class="navbar-brand " href="['home']">
+    <img class="logo" src="../../assets/imagenes/LogoFinal.PNG" height="107" width="175">
+  </a>
+
+  <ul class="nav nav-tabs float-right">
+  <button class="nav-link " id="navbarDropdownMenuLink" routerLink="/favoritos">
+    Favoritos
+</button>
+
+
+
+<li class="nav-item">    
+
+  <div class="nav-item dropleft">
+    
+
+     
+      <button class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Noticias
+    </button>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <button class="dropdown-item" (click)="buscarCat('Deportes')" >Deportes</button>
+          <div class="dropdown-divider"></div>
+          <button class="dropdown-item" (click)="buscarCat('Actualidad')" >Actualidad</button>
+          <div class="dropdown-divider"></div>
+          <button class="dropdown-item" (click)="buscarCat('Novedades')" >Novedades</button>
+
+      </div>
+    </div>
+</li>
+
+
+
+
+<form class="form-inline my-2 my-lg-0">
+  <input id="buscarTexto" class="form-control mr-sm-2" type="text" placeholder="Buscar Noticias" (keyup.enter)="buscarNoticia(buscarTexto.value)" #buscarTexto>
+  <button (click)="buscarNoticia(buscarTexto.value)"
+      class=" btn btn-outline border   BotonBuscar" type="button">Buscar</button>
+</form>
+  </ul>
+
+
+</nav>
+
+
+
+</div>  
+
